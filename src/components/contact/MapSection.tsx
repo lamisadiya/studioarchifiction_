@@ -37,7 +37,7 @@ export default function MapSection() {
             />
           </div>
 
-          {/* Floating Info Card */}
+          {/* Floating Info Card 
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-full max-w-md px-4">
             <div className="bg-white/95 backdrop-blur-xl rounded-2xl shadow-xl border border-white/50 p-6 text-center hover:shadow-2xl transition-all duration-500">
               <div className="flex items-center justify-center gap-2 mb-3">
@@ -51,7 +51,7 @@ export default function MapSection() {
                 {address}
               </p>
 
-              {/* Rating */}
+              {/* Rating 
               <div className="flex items-center justify-center gap-2 mb-4">
                 <div className="flex text-yellow-500">
                   {[...Array(5)].map((_, i) => (
@@ -62,7 +62,7 @@ export default function MapSection() {
                 <span className="text-xs text-gray-600">({reviews} reviews)</span>
               </div>
 
-              {/* Action Buttons */}
+              {/* Action Buttons 
               <div className="flex flex-col sm:flex-row gap-2 justify-center">
                 <a
                   href="https://maps.google.com/?q=Studio+Archifiction+Dhaka"
@@ -79,9 +79,9 @@ export default function MapSection() {
                 >
                   Call Now
                 </a>
-              </div>
+              </div> 
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Trust Note */}

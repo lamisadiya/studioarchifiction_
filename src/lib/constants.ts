@@ -61,7 +61,6 @@ export const items = [
     answer:"Simply contact us with your site details, approximate area, and a brief of your vision. We will schedule a consultancy session and provide a roadmap for your residence interior, office interior, or building design project.",
     }
   ];
-
 export const HERO_SLIDES = [
   {
     image: "/images/4.jpeg",
@@ -80,10 +79,8 @@ export const HERO_SLIDES = [
   },
   
 ];
-
 export const HERO_CARDS = [
-  {
-    title: "OFFICE INTERIOR DESIGN",
+  { title: "OFFICE INTERIOR DESIGN",
     subtitle: "SPECIALIZED INTERIOR DESIGN",
     image: "/images/1.jpg",
   },
@@ -99,7 +96,6 @@ export const HERO_CARDS = [
   },
   
 ];
-
 export const SERVICES_SECTION = {
   centerImage: "/images/6.jpg",
   centerText:
@@ -190,27 +186,25 @@ export const LETS_GET_CREATIVE = {
 
 export const CONTACT_INFO = {
   corporate: {
-    address: "House: 389, 5th Floor, 100 Feet Road, Madani Ave, Dhaka 1229",
+    address: "Studio Archifiction, House 68, Road 6, Monsurabad, Dhaka 1212",
     phone: "+880 167 856 8811",
-    email: "info@cubicdesign.com.bd",
+    email: "info@studioarchifiction.com.bd",
   },
   registered: {
-    address: "House-159, Baganbari Road, Beraid, Dhaka-1212",
+    address: "Studio Archifiction, House 68, Road 6, Monsurabad, Dhaka 1212",
     phone: "+880 2 581 12469",
-    email: "mamun@cubicdesign.com.bd",
+    email: "info@studioarchifiction.com.bd",
   },
 };
 
 export const CONTACT_MAP = {
-  title: "Studio Archification",
-  address: "House 68, Road 6, Monsurabad, Dhaka 1212",
+  title: "Studio Archifiction",
+  address: "House 68, Road 6, Monsurabad, Adabor, Dhaka 1207",
   rating: "5.0",
   reviews: 10,
   embedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.3190012345678!2d90.42012331496152!3d23.768456984576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7007f8b3e4d%3A0x9a8f8e8d8e8d8e8d!2sStudio%20Archification!5e0!3m2!1sen!2sbd!4v1700000000000!5m2!1sen!2sbd",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5000000000000!2d90.358000!3d23.766000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHouse%2068%2C%20Road%206%2C%20Monsurabad%2C%20Adabor%2C%20Dhaka%201207!5e0!3m2!1sen!2sbd!4v1735700000000",
 };
-
-// src/lib/constants.ts
 export const PRODUCT_CATEGORIES = [
   "Office Furniture", "Chair", "Director Desk", "Manager Desk", "Conference Table",
   "Reception Desk", "Waiting Sofa", "Office Workstation", "Bean Bag"
@@ -257,28 +251,26 @@ export const SERVICES_HERO_GRID = {
     { title: "Office Refurbishment", description: "...", image: "/images/1.jpg" },
   ],
 };
-// src/lib/constants.ts
 export const LATEST_PROJECTS = {
   title: "Our Latest Project",
   projects: [
-    {
-      name: "Styleberry Limited",
+    { name: "Styleberry Limited",
       location: "Dhaka",
-      image: "/images/projects/styleberry.jpg",
+      image: "/images/project/1.jpg",
     },
     {
       name: "Islamic Relief",
       location: "Dhaka",
-      image: "/images/projects/islamic-relief.jpg",
+      image: "/images/project/2.jpg",
     },
     {
       name: "GFG International",
       location: "Dhaka",
-      image: "/images/projects/gfg-international.jpg",
+      image: "/images/project/3.webp",
     },
   ],
 };
-// src/lib/constants.ts
+
 export const QUICK_CONTACT = {
   needs: [
     { label: "Office Interior Design", value: "office-interior-design" },
@@ -288,23 +280,21 @@ export const QUICK_CONTACT = {
   ],
 };
 
-// src/lib/constants.ts
 export const PROJECTS_DATA = [
-  { id: 1, name: "GFS International", location: "Dhaka", category: "corporate", image: "/images/projects/gfs.jpg" },
-  { id: 2, name: "Justice and Care", location: "Dhaka", category: "corporate", image: "/images/projects/justice.jpg" },
-  { id: 3, name: "Pakistan Embassy", location: "Dhaka", category: "others", image: "/images/projects/pakistan.jpg" },
-  { id: 4, name: "Styleberry Limited", location: "Dhaka", category: "corporate", image: "/images/projects/styleberry.jpg" },
-  { id: 5, name: "Islamic Relief", location: "Dhaka", category: "corporate", image: "/images/projects/islamic.jpg" },
-  { id: 6, name: "A House Interior", location: "Dhaka", category: "others", image: "/images/projects/house.jpg" },
-  { id: 7, name: "PDS International UK", location: "Dhaka", category: "corporate", image: "/images/projects/pds.jpg" },
-  { id: 8, name: "Dhaka University Library", location: "Dhaka", category: "others", image: "/images/projects/dul.jpg" },
-  { id: 9, name: "Sultan's Dine", location: "Dhaka", category: "showroom", image: "/images/projects/sultans.jpg" },
-  { id: 10, name: "Yamaha Music Showroom", location: "Dhaka", category: "showroom", image: "/images/projects/yamaha.jpg" },
-  { id: 11, name: "Euro Car Solution Ltd", location: "Dhaka", category: "showroom", image: "/images/projects/eurocar.jpg" },
-  { id: 12, name: "Elegant Group", location: "Gazipur", category: "factory", image: "/images/projects/elegant.jpg" },
-  // Add as many as you want
+  { id: 1, name: "GFS International", location: "Dhaka", category: "corporate", image: "/images/project/1.jpg" },
+  { id: 2, name: "Justice and Care", location: "Dhaka", category: "corporate", image: "/images/project/2.jpg" },
+  { id: 3, name: "Pakistan Embassy", location: "Dhaka", category: "others", image: "/images/project/3.webp" },
+  { id: 4, name: "Styleberry Limited", location: "Dhaka", category: "corporate", image: "/images/project/4.webp" },
+  { id: 5, name: "Islamic Relief", location: "Dhaka", category: "corporate", image: "/images/project/1.jpg" },
+  { id: 6, name: "A House Interior", location: "Dhaka", category: "others", image: "/images/project/2.jpg" },
+  { id: 7, name: "PDS International UK", location: "Dhaka", category: "corporate", image: "/images/project/3.webp" },
+  { id: 8, name: "Dhaka University Library", location: "Dhaka", category: "others", image: "/images/project/4.webp" },
+  { id: 9, name: "Sultan's Dine", location: "Dhaka", category: "showroom", image: "/images/project/2.jpg" },
+  { id: 10, name: "Yamaha Music Showroom", location: "Dhaka", category: "showroom", image: "/images/project/4.webp" },
+  { id: 11, name: "Euro Car Solution Ltd", location: "Dhaka", category: "showroom", image: "/images/project/1.jpg" },
+  { id: 12, name: "Elegant Group", location: "Gazipur", category: "factory", image: "/images/project/3.webp" },
 ];
-// src/lib/constants.ts
+
 
 export const SPECIAL_OFFERS_BLOG = [
   { id: 1, name: "Director Desk", price: 65000, image: "/DirectorDesk.jpg" },
@@ -332,7 +322,7 @@ export const BLOG_POSTS = [
   {
     id: 2,
     slug: "top-10-office-interior-design-firms-dhaka-2025",
-    title: "Top 10 Office Interior Design Firms in Dhaka, Bangladesh (2025)",
+    title: "Top 10 Office Interior Design Firms in Dhaka Bangladesh 2025",
     excerpt: "Improve employee productivity, morale, and well-being by reducing long time sitting. Sitting for long periods of time is a major problem in the modern workplace. Many employees spend over eight hours a day sitting at a...",
     tag: "BLOG - INTERIOR",
     date: "17/11/2023",
@@ -375,6 +365,5 @@ export const BLOG_POSTS = [
     image: "/images/blog/brand-identity.jpg",
     fullContent:'',
   },
-  // Add more posts as needed
 ];
     
